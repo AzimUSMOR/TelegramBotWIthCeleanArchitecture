@@ -1,0 +1,57 @@
+# Файлы пользовательских конфигураций Visual Studio
+.vs/
+*.vcxproj.user
+*.db
+*.opendb
+
+# Кэш сборки и выходные файлы
+bin/
+obj/
+TestResults/
+*.log
+
+# Конфигурационные файлы IDE и текстовых редакторов
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Файлы временного кэша и настроек
+*.pdb
+*.cache
+*.ilk
+*.tmp
+*.csproj.user
+*.rsuser
+*.sln.docstates
+
+# Пакеты NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Core
+launchSettings.json
+
+# Локальные настройки и временные файлы операционной системы
+Thumbs.db
+*.DS_Store
+*.directory
+
+# Secrets (секретные данные)
+**/secrets.json
+.env
+
+# Docker
+.dockerignore
+**/docker-compose.override.yml
+
+# Кэш Rider
+.idea/
+*.iml
+
+# Логи
+*.log
