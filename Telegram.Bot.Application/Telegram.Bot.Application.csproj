@@ -10,7 +10,6 @@
     <Folder Include="Dto\" />
     <Folder Include="Extensions\" />
     <Folder Include="Mapper\" />
-    <Folder Include="Services\" />
   </ItemGroup>
 
 </Project>
