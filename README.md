@@ -84,7 +84,7 @@ The project follows a clean and modular architecture based on Domain-Driven Desi
 ## **Setup and Installation**
 
 ### Prerequisites
-- .NET 6 SDK or higher
+- .NET 8 SDK or higher
 - MS SQL Server or MySQL
 - Visual Studio or any preferred IDE
 
