@@ -8,8 +8,11 @@
 
   <ItemGroup>
     <Folder Include="Dto\" />
-    <Folder Include="Extensions\" />
     <Folder Include="Mapper\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Telegram.Bot" Version="22.3.0" />
   </ItemGroup>
 
 </Project>

@@ -13,4 +13,12 @@
     <PackageReference Include="Telegram.Bot" Version="22.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Telegram.Bot.Application\Telegram.Bot.Application.csproj" />
+  </ItemGroup>
+
 </Project>
