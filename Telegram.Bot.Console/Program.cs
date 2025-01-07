@@ -39,7 +39,7 @@ public class Executor
 
     public async Task Execute()
     {
-        _botClient = new TelegramBotClient("8038450505:AAFtWmzW0-q7iJdzxiFeorFxmV80FtWvlh4"); // Присваиваем нашей переменной значение, в параметре передаем Token, полученный от BotFather
+        _botClient = new TelegramBotClient("803"); // Присваиваем нашей переменной значение, в параметре передаем Token, полученный от BotFather
         _receiverOptions = new ReceiverOptions // Также присваем значение настройкам бота
         {
             AllowedUpdates = new[] // Тут указываем типы получаемых Update`ов, о них подробнее расказано тут https://core.telegram.org/bots/api#update
